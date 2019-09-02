@@ -75,7 +75,7 @@
     /* For mobile phones: */
     h1.compendium {
         font-size: 45px;
-        transform: translate(0%, 360%);
+        transform: translate(0%, 160%);
     }
       
     .emem-about{
@@ -118,7 +118,7 @@
       /* For desktop: */
       h1.compendium {
         font-size: 150px;
-        transform: translate(0%, 400%)}
+        transform: translate(0%, 200%)}
 
       .emem-about-page {
       transform: translate(0%, 0%)
