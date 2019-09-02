@@ -102,7 +102,7 @@
       /* For tablets: */
       h1.compendium {
         font-size: 70px;
-        transform: translate(0%, 350%)}
+        transform: translate(0%, 200%)}
 
       .hero-timetable{
           width: 60%;
@@ -124,7 +124,7 @@
       /* For desktop: */
       h1.compendium {
         font-size: 100px;
-        transform: translate(0%, 200%)}
+        transform: translate(0%, 150%)}
 
       .emem-about-page {
       transform: translate(0%, 0%)
