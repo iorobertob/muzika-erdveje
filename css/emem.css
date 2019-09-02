@@ -1,0 +1,170 @@
+    <style  type="text/css" >
+
+      body {
+        padding-top: 0px;
+        padding-bottom: 40px;
+      }
+
+    body.emem{
+      margin-left: 0px;
+      padding-left: 0px;
+      padding-right:0px;
+      padding-top: 0px;
+    }
+
+    td.emem:hover .button {
+      opacity: 1;
+    }
+
+    .ib-footer{
+          width:30%;
+    }
+
+    .bg {
+        /* The image used */
+        background-image: url('../Uploads/emem.gif');
+        opacity:0.99;
+        /* Full height */
+        height: 100%; 
+
+        /* Center and scale the image nicely */
+        background-position: center ;
+        vertical-align: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        padding-top: 0px;
+        margin-top: 0px;
+        position: relative;
+    }
+
+    @font-face {
+    font-family: raleway;
+    src: url(../fonts/raleway_thin.woff);
+    font-weight: bold;
+    }
+
+    @font-face {
+    font-family: lato;
+    src: url(../fonts/lato_thin.woff);
+    font-weight: bold;
+    }
+
+    .emem-map {
+      width: 100%;
+    }
+
+    .hero-timetable{
+      width: 80%;
+    }
+
+    .dataTables_scroll{
+          overflow:auto;
+          position:relative;
+    }
+
+
+    .td-emem { 
+      white-space:pre
+       }
+
+    .emem-videos{
+      width: 70%;
+    }
+
+    /* For mobile phones: */
+    h1.compendium {
+        font-size: 45px;
+        transform: translate(0%, 360%);
+    }
+      
+    .emem-about{
+      /*transform: translate(0%, -11%)*/
+      transform: translate(0px, -350px)
+    }
+    .emem-about-page{
+      /*transform: translate(0%, -11%)*/
+      transform: translate(0px, -350px)
+    }
+
+    .program-emem{
+        /*padding-top: 17%;*/
+       
+    }
+
+    @media  (min-width: 460px) {
+      /* For tablets: */
+      h1.compendium {
+        font-size: 70px;
+        transform: translate(0%, 350%)}
+
+      .hero-timetable{
+          width: 60%;
+        }
+
+      .program-emem{
+        /*padding-top: 17%;*/
+        padding-top: 15%;
+        transform: translate(0%, -5%);
+        opacity:200;
+        }
+
+      .emem-videos{
+        width: 50%;
+      }
+    }
+
+    @media (min-width: 1000px) {
+      /* For desktop: */
+      h1.compendium {
+        font-size: 150px;
+        transform: translate(0%, 400%)}
+
+      .emem-about-page {
+      transform: translate(0%, 0%)
+      }
+
+      .program-emem{
+        /*padding-top: 17%;*/
+          /*margin-top: 55px;*/
+          transform: translate(0%,10%);
+          opacity:200;
+        }
+
+      .emem-map {
+        width: 80%;
+      }
+
+      .hero-timetable{
+        width:40%;
+      }
+
+      .ib-footer{
+        width:10%;
+       }
+
+      .emem-videos{
+        width: 560px;
+      }
+
+    } 
+
+/*
+      div.emem {
+          transform: translate(0%, 300%);
+      }
+        
+      @media  (min-width: 460px) {
+        // Tablets 
+        div.emem {
+          transform: translate(0%, 200%)}
+  
+      }
+
+      @media (min-width: 800px) {
+        // Desktop
+        div.emem {
+          transform: translate(0%, 400%)}
+      }*/
+
+    </style>
