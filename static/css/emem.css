@@ -117,7 +117,7 @@
     @media (min-width: 1000px) {
       /* For desktop: */
       h1.compendium {
-        font-size: 150px;
+        font-size: 100px;
         transform: translate(0%, 200%)}
 
       .emem-about-page {
